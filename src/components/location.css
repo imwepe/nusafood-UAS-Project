@@ -1,0 +1,14 @@
+.dibuat {
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+  font-weight: 700;
+  font-family: "Poppins";
+}
+
+.lokasi {
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}

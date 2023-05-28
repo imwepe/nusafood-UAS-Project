@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      body {
+        margin: 0;
+        overflow: hidden;
+        height: 100%;
+        font-family: "Roboto", sans-serif;
+        background: #000;
+      }
+
+      .strip {
+        position: absolute;
+        height: 100vh;
+        background: #fff;
+        width: 0.0625rem;
+        opacity: 0.3;
+      }
+
+      .one {
+        left: 25%;
+      }
+
+      .two {
+        left: 50%;
+      }
+
+      .three {
+        left: 75%;
+      }
+
+      .container {
+        align-items: flex-start;
+        display: flex;
+        justify-content: center;
+        padding: 16.875rem 1.5rem;
+      }
+
+      .card-grid {
+        display: grid;
+        grid-column-gap: 1.5rem;
+        max-width: 75rem;
+        width: 100%;
+      }
+
+      @media (min-width: 75rem) {
+        .card-grid {
+          grid-template-columns: repeat(5, 1fr);
+        }
+      }
+
+      .card {
+        position: relative;
+      }
+
+      .card::before {
+        content: "";
+        display: block;
+        padding-bottom: 150%;
+      }
+
+      .card-background {
+        background-size: cover;
+        background-position: center;
+        border-radius: 0.9375rem;
+        bottom: 0;
+        left: 0;
+        position: absolute;
+        right: 0;
+        top: 0;
+        transition: filter 0.2s linear, transform 200ms linear;
+      }
+
+      .card:hover .card-background {
+        transform: scale(1.25) translateZ(0);
+      }
+
+      .card-grid:hover > .card:not(:hover) .card-background {
+        filter: brightness(1) saturate(0) contrast(1) blur(1.25rem);
+      }
+
+      .card-content {
+        padding: 14.375rem 1.25rem;
+        position: absolute;
+        top: 0;
+      }
+
+      .card-category {
+        color: rgba(255, 255, 255, 0.5);
+        font-size: 0.9rem;
+        text-transform: uppercase;
+      }
+
+      .card-heading {
+        color: rgba(255, 255, 255, 0.9);
+        font-size: 1.9rem;
+        text-shadow: 0.125rem 0.125rem 1.25rem rgba(0, 0, 0, 0.2);
+      }
+      p {
+        margin-top: -1.875rem;
+      }
+    </style>
+  </head>
+  <body>
+    <div>
+      <div class="strip one"></div>
+      <div class="strip two"></div>
+      <div class="strip three"></div>
+    </div>
+
+    <section class="container">
+      <div class="card-grid">
+        <a href="" class="card">
+          <div
+            class="card-background"
+            style="background-image: url(elpan.jpg)"
+          ></div>
+          <span class="card-content">
+            <h3 class="card-heading">Thomas Elvanli</h3>
+            <p class="card-category">Web Engineer</p>
+          </span>
+        </a>
+
+        <a href="" class="card">
+          <div
+            class="card-background"
+            style="background-image: url(ewa.jpg)"
+          ></div>
+          <span class="card-content">
+            <h3 class="card-heading">Edward Ferdinand</h3>
+            <p class="card-category">Web Designer</p>
+          </span>
+        </a>
+
+        <a href="" class="card">
+          <div
+            class="card-background"
+            style="background-image: url(lebby.jpg)"
+          ></div>
+          <span class="card-content">
+            <h3 class="card-heading">Khaleb Andhyka</h3>
+            <p class="card-category">Project Director</p>
+          </span>
+        </a>
+
+        <a href="" class="card">
+          <div
+            class="card-background"
+            style="background-image: url(Marvel.jpg)"
+          ></div>
+          <span class="card-content">
+            <h3 class="card-heading">Marvell Christofer</h3>
+            <p class="card-category">Designer</p>
+          </span>
+        </a>
+
+        <a href="" class="card">
+          <div
+            class="card-background"
+            style="background-image: url(jawir.jpg)"
+          ></div>
+          <span class="card-content">
+            <h3 class="card-heading">William Purba</h3>
+            <p class="card-category">Designer</p>
+          </span>
+        </a>
+      </div>
+    </section>
+  </body>
+</html>

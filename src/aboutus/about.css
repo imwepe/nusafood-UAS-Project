@@ -1,0 +1,15 @@
+h2 {
+  color: aliceblue;
+}
+
+.team-info .gelar {
+  color: black;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.team-info .terserah {
+  color: black;
+  font-weight: 500;
+  font-family: "Bebas Neue";
+}

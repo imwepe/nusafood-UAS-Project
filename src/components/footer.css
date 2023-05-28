@@ -1,0 +1,44 @@
+.footer {
+  background-color: rgb(30, 29, 29);
+  text-align: center;
+  padding: 1rem 0 3rem;
+  margin-top: 3rem;
+}
+
+.footer .links {
+  margin-bottom: 1.3rem;
+}
+
+.footer .links a {
+  color: #fff;
+  padding: 0.7rem 0.5rem;
+  text-decoration: none;
+}
+
+.footer .links a:hover {
+  color: red;
+  transition-duration: 0.5s;
+}
+
+.footer .credit {
+  font-size: 0.8rem;
+}
+
+.footer .credit a {
+  color: red;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.footer .last {
+  font-family: "Rowdies";
+  font-weight: 700;
+}
+.footer .last a {
+  text-decoration: none;
+  color: #fff;
+}
+.footer .last a:hover {
+  color: red;
+  transition-duration: 0.5s;
+}

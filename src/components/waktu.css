@@ -1,0 +1,16 @@
+.judul-waktu {
+  display: flex;
+  justify-content: center;
+  font-weight: 800;
+  color: #fff;
+  font-family: "Poppins";
+  mix-blend-mode: difference;
+}
+
+.sub-waktu {
+  display: flex;
+  justify-content: center;
+  font-weight: 400;
+  font-family: "Bebas Neue";
+  mix-blend-mode: difference;
+}
