@@ -4,6 +4,7 @@ import React from "react";
 import Footer from "./Footer";
 import YourComponent from "./Waktu";
 import Saran from "./Saran";
+import Description from "./Desc";
 
 const Map = () => {
   const navigate = useNavigate();
@@ -111,6 +112,7 @@ const Map = () => {
         </a>
       </svg>
       <YourComponent />
+      <Description />
       <Saran />
       <Footer />
     </div>
