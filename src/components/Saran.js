@@ -1,84 +1,51 @@
 import React, { useState } from "react";
+import "./saran.css";
 
 function Saran() {
-  const [name, setName] = useState("");
-  const [email, setEmail] = useState("");
-  const [saran, setSaran] = useState("");
-
-  const handleSubmit = (e) => {
-    e.preventDefault();
-
-    const formData = {
-      name,
-      email,
-      saran,
-    };
-
+  function Submit(e) {
+    const formEle = document.querySelector("form");
+    const formDatab = new FormData(formEle);
     fetch(
-      "https://script.google.com/macros/s/AKfycbwEK6p30qlmPw6PmJ_b9UpG6vadqb8LEPQs4u3ix0dXJQmgaPIfMLHDNNKiBcMvUEZk/exec",
+      "https://script.google.com/macros/s/AKfycbwryI4bq5LcwKDccNkZ8Bkhz7CksI9xVjt0PyfLvdhxMphCVKb6IVPdeVW8KDO4QVNE/exec",
       {
         method: "POST",
-        headers: {
-          "Content-Type": "application/json",
-        },
-        body: JSON.stringify(formData),
+        body: formDatab,
       }
     )
-      .then((response) => response.json())
-      .then((response) => {
-        setName("");
-        setEmail("");
-        setSaran("");
+      .then((res) => res.json())
+      .then((data) => {
+        console.log(data);
       })
-      .catch((error) => console.error("Error:", error));
-  };
-
+      .catch((error) => {
+        console.log(error);
+      });
+  }
   return (
-    <div className="container">
-      <br />
-      <h1>Saran</h1>
-      <br />
-      <form autoComplete="off" className="form-group">
-        <label>Name</label>
-        <input
-          type="text"
-          className="form-control"
-          required
-          placeholder="Enter your name"
-          value={name}
-          onChange={(e) => setName(e.target.value)}
-        />
-        <br />
-        <label>Email</label>
-        <input
-          type="email"
-          className="form-control"
-          required
-          placeholder="Enter your email"
-          value={email}
-          onChange={(e) => setEmail(e.target.value)}
-        />
-        <br />
-        <label>Saran</label>
-        <input
-          type="text"
-          className="form-control"
-          required
-          placeholder="Enter your Saran"
-          value={saran}
-          onChange={(e) => setSaran(e.target.value)}
-        />
-        <br />
-        <div style={{ display: "flex", justifyContent: "flex-end" }}>
-          <button
-            type="submit"
-            className="btn btn-primary"
-            onClick={handleSubmit}
-          >
-            Submit
-          </button>
-        </div>
-      </form>
+    <div className="App">
+      <h1 className="judul-contact">Messages for Us</h1>
+      <div>
+        <form className="form" onSubmit={(e) => Submit(e)}>
+          <input
+            className="input-1"
+            placeholder="Name"
+            name="Name"
+            type="text"
+          />
+          <input
+            className="input-2"
+            placeholder="Email"
+            name="Email"
+            type="text"
+          />
+          <input
+            className="input-3"
+            placeholder="Message"
+            name="Message"
+            type="text"
+          />
+          <input className="btn" name="Name" type="submit" />
+        </form>
+      </div>
     </div>
   );
 }

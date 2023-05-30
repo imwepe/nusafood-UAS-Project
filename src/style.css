@@ -38,58 +38,17 @@ header {
   border-radius: 20px;
 }
 
-/* .nav {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  padding: 30px 100px;
-  display: flex;
-  justify-content: space-between;
-  z-index: 100;
-}
-
-.logo {
-  color: white;
-  font-size: 2em;
-  cursor: default;
-}
-
-.navbar a {
-  color: #fff;
-  text-decoration: none;
-  margin-left: 20px;
-  font-weight: 600;
-  padding: 6px 15px;
-  border-radius: 20px;
-} */
-
-/* .navbar {
-  background-color: orange;
-  display: flex;
-}
-
-.navbar .nav-list {
-  list-style: none;
-  margin-left: 45%;
-}
-
-.navbar .nav-list li { 
-  display: inline-block;
-  line-height: 80px;
-  margin: 0 5px;
-}
-
-.navbar .nav-list a {
-  text-decoration: none;
-  color: black;
-  font-weight: 700;
-  font-family: "Poppins";
-} */
 .mapdiv {
   width: 100%;
   margin: auto;
   background-color: transparent;
+}
+
+.mapdiv h1 {
+  text-align: center;
+  font-size: 3rem;
+  font-family: "Playfair Display";
+  font-weight: 400;
 }
 
 .mapdiv :hover {

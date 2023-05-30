@@ -33,6 +33,20 @@ const Sumatera = () => {
       backgroundUrl:
         "https://cdn-2.tstatic.net/jambi/foto/bank/images/resep-pempek-tanpa-ikan.jpg",
     },
+    {
+      name: "Nasi Gemuk",
+      description:
+        "Salah satu makanan khas Jambi adalah nasi yang dimasak dengan santan kelapa dan daun pandan. Biasanya, nasi gemuk disajikan dengan ikan teri, kacang goreng, mentimun, bawang goreng, telur dadar atau rebus, dan sambal dengan rasa yang unik.",
+      backgroundUrl:
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/Nasi_Gmk.jpg/1200px-Nasi_Gmk.jpg",
+    },
+    {
+      name: "Gulai Taboh",
+      description:
+        "Gulai Taboh, yang berarti sayur disantan, adalah masakan khas dari Lampung. Anda dapat membuat gulai taboh dengan ikan atau hanya sayuran sebagai bahan utamanya. Namun, gulai taboh biasanya dibuat dari ikan asap yang dimasak dengan santan kental. Potongan belimbing wuluh adalah ciri khas gulai ini.",
+      backgroundUrl:
+        "https://kecipir.com/blog/wp-content/uploads/2022/03/Gulai-Taboh.jpg",
+    },
   ];
   return (
     <div>

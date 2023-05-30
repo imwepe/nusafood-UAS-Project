@@ -22,16 +22,28 @@ const Papua = () => {
     },
     {
       name: "Udang Selingkuh",
-      description: `Udang selingkuh, dibuat dengan bahan utama, yaitu udang air tawar yang diambil dari sungai. Kemudian dimasak dengan sambal asam manis, saus tiram, saus padang, atau saus mentega.`,
+      description: `Udang Selingkuh, dibuat dengan bahan utama, yaitu udang air tawar yang diambil dari sungai. Kemudian dimasak dengan sambal asam manis, saus tiram, saus padang, atau saus mentega.`,
       backgroundUrl:
         "https://cdn.idntimes.com/content-images/post/20190912/udang-selingkuh-kuliner-khas-papua-houstoniamagcom-dc460489e7c18bfee4d6892a149ba000.jpg",
     },
     {
       name: "Keladi Tumbuk",
       description: `Keladi tumbuk adalah hidangan khas masyarakat Biak, Papua.
-      Sajian biasa berupa talas yang direbus kemudian ditumbuk hingga halus.Keladi tumbuk disajikan dengan sayur pakis, ikan suir asap, dan sambak.`,
+      Sajian biasa berupa talas yang direbus kemudian ditumbuk hingga halus. Keladi tumbuk disajikan dengan sayur pakis, ikan suir asap, dan sambak.`,
       backgroundUrl:
         "https://www.goodnewsfromindonesia.id/uploads/post/large-69664091-159386661911374-4983479964992409667-n-1-84f99a7735fd556cda039138ac512db2.jpg",
+    },
+    {
+      name: "Sate Ulat Sagu",
+      description: `Satu makanan khas Papua adalah Sate Ulat Sagu. Ulat sagu dibuat dengan memotong pohon sagu, mengambil ulatnya dan membiarkan membusuk. Meskipun tampilannya menjijikkan, makanan ini mengandung banyak protein dan baik untuk penderita diabetes. Makanan rendah serat ini dapat dimakan secara langsung, digoreng, atau dijadikan sate.`,
+      backgroundUrl:
+        "https://merahputih.com/media/2016/02/17/7Pp1nIUOfD1455682100.png",
+    },
+    {
+      name: "Ikan Bungkus",
+      description: `Ikan bungkus adalah salah satu makanan khas Papua. Ikan bungkus Papua terkenal dengan baunya yang wangi. Itu karena daun salam ditambahkan untuk membuat campuran bumbu lebih wangi dan meresap di daging ikan. Ikan bandeng adalah jenis ikan yang paling umum digunakan. Karena dagingnya yang tidak hancur setelah diolah, ikan bandeng ini sangat cocok untuk dibungkus.`,
+      backgroundUrl:
+        "https://merahputih.com/media/47/c2/17/47c217d9b7e2c611677fc54698a63580.jpg",
     },
   ];
   return (

@@ -33,6 +33,16 @@ function Services() {
                 <p className="terserah">
                   <Quote />
                 </p>
+                <ul className="team-icon">
+                  <li>
+                    <a
+                      href="https://www.instagram.com/marvell_christo/"
+                      className="facebook"
+                    >
+                      <i className="fab fa-instagram"></i>
+                    </a>
+                  </li>
+                </ul>
               </div>
             </div>
           </div>
@@ -46,6 +56,16 @@ function Services() {
                 <p className="terserah">
                   <Quote />
                 </p>
+                <ul className="team-icon">
+                  <li>
+                    <a
+                      href="https://www.instagram.com/williampurbaa_/"
+                      className="facebook"
+                    >
+                      <i className="fab fa-instagram"></i>
+                    </a>
+                  </li>
+                </ul>
               </div>
             </div>
           </div>
@@ -59,6 +79,16 @@ function Services() {
                 <p className="terserah">
                   <Quote />
                 </p>
+                <ul className="team-icon">
+                  <li>
+                    <a
+                      href="https://www.instagram.com/khalebandhyka/"
+                      className="facebook"
+                    >
+                      <i className="fab fa-instagram"></i>
+                    </a>
+                  </li>
+                </ul>
               </div>
             </div>
           </div>
@@ -72,6 +102,16 @@ function Services() {
                 <p className="terserah">
                   <Quote />
                 </p>
+                <ul className="team-icon">
+                  <li>
+                    <a
+                      href="https://www.instagram.com/lelvanll/"
+                      className="facebook"
+                    >
+                      <i className="fab fa-instagram"></i>
+                    </a>
+                  </li>
+                </ul>
               </div>
             </div>
           </div>
@@ -85,6 +125,16 @@ function Services() {
                 <p className="terserah">
                   <Quote />
                 </p>
+                <ul className="team-icon">
+                  <li>
+                    <a
+                      href="https://www.instagram.com/edw.ferdinand/"
+                      className="facebook"
+                    >
+                      <i className="fab fa-instagram"></i>
+                    </a>
+                  </li>
+                </ul>
               </div>
             </div>
           </div>

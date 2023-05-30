@@ -2,6 +2,10 @@ h2 {
   color: aliceblue;
 }
 
+.team-item {
+  background-color: rgb(211, 211, 211, 0.6);
+}
+
 .team-info .gelar {
   color: black;
   font-weight: 600;
@@ -12,4 +16,8 @@ h2 {
   color: black;
   font-weight: 500;
   font-family: "Bebas Neue";
+}
+
+.team-icon {
+  margin-right: 30px;
 }

@@ -1,0 +1,40 @@
+.judul-contact {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+
+input {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  height: 45px;
+  width: 160vh;
+  margin-left: 20vh;
+  margin-right: 30vh;
+}
+
+.input-1 {
+  margin-bottom: 15px;
+}
+.input-2 {
+  margin-bottom: 15px;
+}
+.input-3 {
+  margin-bottom: 15px;
+}
+
+.btn {
+  margin-top: 1rem;
+  border: 1px solid black;
+  background-color: rgba(199, 199, 199, 0.7);
+  width: 10vh;
+  margin-left: 97vh;
+  font-family: "Poppins";
+  width: 10vh;
+}
+.btn:hover {
+  transition: 0.3s;
+  background-color: black;
+  color: white;
+}

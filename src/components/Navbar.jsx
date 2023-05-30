@@ -1,6 +1,5 @@
 import React from "react";
 import "./stylenav.css";
-import LoginWeb from "../Login";
 
 const Navbar = () => {
   return (
@@ -35,11 +34,6 @@ const Navbar = () => {
               <li class="nav-item">
                 <a href="/about" class="nav-link">
                   About
-                </a>
-              </li>
-              <li class="nav-item">
-                <a href="/about" class="nav-link">
-                  Our Location
                 </a>
               </li>
             </ul>

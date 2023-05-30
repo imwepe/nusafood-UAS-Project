@@ -32,6 +32,18 @@ const Kepulauan = () => {
       backgroundUrl:
         "https://sampaijauh.com/wp-content/uploads/2022/08/roti-kompiang.jpeg",
     },
+    {
+      name: "Kolo",
+      description: `Makanan khas Kupang adalah kolo, yang dimasak dengan batang bambu. Nasi bambu dan nasi bakar adalah nama lain untuk makanan ini. Disebut demikian karena nasi dimasukkan ke dalam bambu selama proses memasaknya dan kemudian dimasak dengan cara dibakar. Selain itu, nasi ini biasanya dihidangkan dalam acara makan bersama yang merayakan musim panen.`,
+      backgroundUrl:
+        "https://labuanbajotour.com/wp-content/uploads/2021/06/Kolo-Khas-Labuan-Bajo.jpg",
+    },
+    {
+      name: "Ayam Taliwang",
+      description: `Karang Taliwang di Mataram, Nusa Tenggara Barat, adalah asal usul ayam taliwang. Daging ayam adalah bahan utama makanan ini. Ayam kampung muda yang dibakar kemudian dibumbui dengan saus yang terdiri dari cabai merah kering, bawang merah, bawang putih, tomat, terasi goreng, kencur, gula merah, dan garam.`,
+      backgroundUrl:
+        "https://asset.kompas.com/crops/-oAqlkfrKHaqebhytdtKz-JV6ls=/4x0:1000x664/750x500/data/photo/2020/12/22/5fe16c7655542.jpg",
+    },
   ];
   return (
     <div>

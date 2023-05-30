@@ -4,6 +4,7 @@
   margin-left: 23vh;
   margin-right: 23vh;
   border-radius: 25px;
+  margin-bottom: 25vh;
 }
 .kotak-desc:hover {
   transform: scale(1.2);

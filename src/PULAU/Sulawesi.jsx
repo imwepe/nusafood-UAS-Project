@@ -33,6 +33,18 @@ const Sulawesi = () => {
       backgroundUrl:
         "https://www.masakapahariini.com/wp-content/uploads/2022/06/resep-buras.jpg",
     },
+    {
+      name: "Tinutuan",
+      description: `Salah satu makanan khas Manado, Sulawesi Utara, adalah Tinutuan, juga dikenal sebagai Bubur Manado. Tinutuan dapat digunakan sebagai makanan pergaulan antar kelompok masyarakat di Manado karena merupakan campuran berbagai macam sayuran yang tidak mengandung daging. Sarapan pagi biasanya terdiri dari Tinutuan dan berbagai hidangan lainnya.`,
+      backgroundUrl:
+        "https://www.goodnewsfromindonesia.id/uploads/post/large-shutterstock-1990956131-fdca6077e61fa78ac4eed782fdd86070.jpg",
+    },
+    {
+      name: "Sup Konro",
+      description: `Sup Konro adalah masakan Makassar tradisional. Biasanya, daging sapi atau iga sapi digunakan untuk membuat Sup Konro. Dengan menggunakan ketumbar, bumbunya relatif "kuat". Kombinasi rempah-rempah, termasuk ketumbar, keluwak, sedikit pala, kunyit, kencur, kayu manis, asam, daun lemon, cengkih, dan daun salam, memberikan rasa pedas dan berbumbu ini.`,
+      backgroundUrl:
+        "https://asset.kompas.com/crops/t9vL2Z6ZAjt7cnpl05cuYOfd2k4=/129x72:651x420/750x500/data/photo/2020/07/30/5f22636a0e7e0.jpg",
+    },
   ];
   return (
     <div>
