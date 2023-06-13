@@ -59,10 +59,10 @@
 @media (max-width: 450px) {
   .kotak-desc {
     width: 25em;
-    margin-left: 25px;
+    margin-left: 10px;
   }
   .kotak-desc:hover {
-    transform: scale(0.9);
+    transform: scale(1);
   }
   .what-is-it {
     font-size: 25px;
