@@ -67,6 +67,9 @@ header {
   html {
     max-width: 450px;
   }
+  body {
+    max-width: 450px;
+  }
 }
 
 @media only screen and (max-width: 600px) {
