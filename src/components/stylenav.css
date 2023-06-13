@@ -3,7 +3,7 @@
   position: fixed;
   top: 0;
   left: 0;
-  width: 100vw;
+  width: 99vw;
   justify-content: space-between;
   z-index: 100;
   background-color: rgba(125, 123, 123, 0.6);
