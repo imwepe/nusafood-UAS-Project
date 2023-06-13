@@ -7,7 +7,7 @@
   margin-bottom: 25vh;
 }
 .kotak-desc:hover {
-  transform: scale(1.2);
+  transform: scale(1.1);
   transition-duration: 0.3s;
 }
 
@@ -59,7 +59,7 @@
 @media (max-width: 450px) {
   .kotak-desc {
     width: 25em;
-    margin-left: 10px;
+    margin-left: 25px;
   }
   .kotak-desc:hover {
     transform: scale(1);
