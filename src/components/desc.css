@@ -13,7 +13,7 @@
 
 .what-is-it {
   padding-top: 2rem;
-  font-family: "Bebas Neue";
+  font-family: "Playfair Display";
   font-weight: 800;
   display: flex;
   justify-content: center;
@@ -24,7 +24,7 @@
   display: flex;
   justify-content: center;
   margin-top: 5vh;
-  font-family: "Bebas Neue";
+  font-family: "Playfair Display";
 }
 
 .desc-awal {
@@ -54,4 +54,28 @@
   margin-left: 3rem;
   margin-right: 3rem;
   padding-bottom: 2rem;
+}
+
+@media (max-width: 450px) {
+  .kotak-desc {
+    width: 25em;
+    margin-left: 25px;
+  }
+  .what-is-it {
+    font-size: 25px;
+    font-weight: 400;
+  }
+  .what-is {
+    font-size: 30px;
+    font-family: "Playfair Display";
+  }
+  .desc-awal {
+    font-size: 20px;
+  }
+  .visi {
+    font-size: 20px;
+  }
+  .misi {
+    font-size: 20px;
+  }
 }

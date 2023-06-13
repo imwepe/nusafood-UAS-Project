@@ -7,6 +7,7 @@
 
 .footer .links {
   margin-bottom: 1.3rem;
+  margin-left: 2em;
 }
 
 .footer .links a {
@@ -22,6 +23,7 @@
 
 .footer .credit {
   font-size: 0.8rem;
+  margin-left: 3.5em;
 }
 
 .footer .credit a {
@@ -37,8 +39,21 @@
 .footer .last a {
   text-decoration: none;
   color: #fff;
+  margin-left: 1em;
 }
 .footer .last a:hover {
   color: red;
   transition-duration: 0.5s;
+}
+
+@media (max-width: 450px) {
+  .footer .links {
+    margin-right: 3.5em;
+  }
+  .footer .credit {
+    margin-right: 5em;
+  }
+  .footer .last {
+    margin-right: 2.5em;
+  }
 }

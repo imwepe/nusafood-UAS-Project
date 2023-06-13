@@ -164,3 +164,9 @@ h3 {
 .active .artist-profile-link {
   pointer-events: all;
 }
+
+@media (max-width: 450px) {
+  .nav {
+    background-color: transparent;
+  }
+}

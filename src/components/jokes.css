@@ -23,3 +23,10 @@
   font-family: "Poppins";
   padding-bottom: 1rem;
 }
+
+@media (max-width: 450px) {
+  .JokeComponent {
+    width: 25em;
+    margin-left: 1rem;
+  }
+}

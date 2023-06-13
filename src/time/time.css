@@ -1,10 +1,9 @@
 .font-waktu {
   color: white;
-  font-family: sans-serif;
-  font-size: 40px;
+  font-family: "Playfair Display";
+  font-size: 25px;
   padding-top: 3em;
   padding-bottom: 0%;
-  font-family: "Bebas Neue";
 }
 
 .time {
@@ -15,4 +14,18 @@
   height: 300px;
   border-radius: 20px;
   text-align: center;
+}
+
+@media (max-width: 450px) {
+  .font-waktu {
+    font-size: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+    justify-content: center;
+    width: 25em;
+  }
+  .time {
+    width: 25em;
+  }
 }

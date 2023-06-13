@@ -3,9 +3,10 @@
   position: fixed;
   top: 0;
   left: 0;
-  width: 98vw;
+  width: 100vw;
   justify-content: space-between;
   z-index: 100;
+  background-color: rgba(125, 123, 123, 0.6);
   /* background-color: rgb(0, 0, 0, 0.3); */
 }
 
@@ -42,6 +43,10 @@ button:hover {
   text-decoration: none;
   color: #fff;
 }
+.logo a:hover {
+  color: red;
+  transition: 1s;
+}
 
 .navbar a {
   color: #fff;
@@ -52,7 +57,14 @@ button:hover {
 }
 
 .navbar a:hover {
-  color: rgb(233, 45, 24);
+  color: red;
   transform: scale(1.5);
   transition-duration: 0.5s;
+}
+
+@media (max-width: 450px) {
+  .navbar-collapse {
+    margin-right: 160px;
+    margin-top: -20px;
+  }
 }

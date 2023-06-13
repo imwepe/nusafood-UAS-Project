@@ -11,7 +11,7 @@ const Map = () => {
   return (
     <div className="mapdiv">
       <Navbar />
-      <h1>Click The Map to Continue</h1>
+      <h1 className="perintah">Click The Map to Continue</h1>
       <svg viewBox="0 0 790 500">
         <a
           onClick={() => {

@@ -44,7 +44,7 @@ header {
   background-color: transparent;
 }
 
-.mapdiv h1 {
+.mapdiv .perintah {
   text-align: center;
   font-size: 3rem;
   font-family: "Playfair Display";
@@ -61,6 +61,12 @@ header {
   stroke: none;
   stroke-width: 2px;
   transition: fill 0.3s;
+}
+
+@media (max-width: 450px) {
+  html {
+    max-width: 450px;
+  }
 }
 
 @media only screen and (max-width: 600px) {
